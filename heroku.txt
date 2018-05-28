@@ -1,0 +1,4 @@
+heroku login
+heroku apps:create my-static-site-example-27
+heroku buildpacks:set heroku/php
+git push heroku master
